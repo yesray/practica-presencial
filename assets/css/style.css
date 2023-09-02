@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #a8d6ff;
+}
+
+.contenedor {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.contenido {
+    background-image: url('../img/bg-login.png');
+    background-size: cover;
+    background-position: center;
+    width: 70%;
+    height: 80%;
+    border-radius: 30px;
+    box-shadow: 10px 13px 33px 0px rgba(46,46,46,1);
+}
